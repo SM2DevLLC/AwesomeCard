@@ -132,7 +132,7 @@ class _CreditCardState extends State<CreditCard>
 
   Widget _buildFrontCard() {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20),
+      // margin: EdgeInsets.symmetric(horizontal: 20),
       width: cardWidth,
       height: cardHeight,
       decoration: BoxDecoration(
@@ -182,7 +182,6 @@ class _CreditCardState extends State<CreditCard>
 
   Widget _buildBackCard() {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 20),
       width: cardWidth,
       height: cardHeight,
       decoration: BoxDecoration(
